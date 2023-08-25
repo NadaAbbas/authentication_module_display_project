@@ -20,8 +20,9 @@ For displaying and showcasing Abs.AI App development services, this repository h
 - For error handling, Error Handler is used.
 
 ### Codebase structure:
-lib:
+lib:.
 |   constants.dart
+|   README.md
 |   routes.dart
 |   tree.txt
 |   
