@@ -20,82 +20,102 @@ For displaying and showcasing Abs.AI App development services, this repository h
 - For error handling, Error Handler is used.
 
 ### Codebase structure:
-lib:.
-|   constants.dart
-|   README.md
-|   routes.dart
-|   tree.txt
-|   
-+---BusinessLogic
-|   +---data
-|   |   \---auth_repo
-|   |           auth_repo.dart
-|   |           auth_repo_implementation.dart
-|   |           
-|   +---Models
-|   |       auth_owner_model.dart
-|   |       
-|   +---Services
-|   |   |   location_services.dart
-|   |   |   
-|   |   \---FireBaseServices
-|   |           create_and_delete_db_services.dart
-|   |           firebase_phone_auth_helper.dart
-|   |           firebase_validation_services.dart
-|   |           
-|   +---utils
-|   |   |   globalSnackBar.dart
-|   |   |   shareable _data.dart
-|   |   |   
-|   |   +---dropdownLists
-|   |   |       registerDropDownItems.dart
-|   |   |       
-|   |   +---error
-|   |   |       failure.dart
-|   |   |       validation_exception.dart
-|   |   |       
-|   |   \---function
-|   |           helper_function.dart
-|   |           
-|   \---view_models
-|       \---authentication_view_models
-|               authentication_view_model.dart
-|               
-+---components
-|       buttons.dart
-|       customTextField.dart
-|       dropDownBox.dart
-|       orDivider.dart
-|       returnAppBar.dart
-|       
-+---scaffoldComponents
-|       GeneralScaffold.dart
-|       ScaffoldDrawer.dart
-|       userIconButton.dart
-|       
-\---screens
-    \---authentication
-        +---free_trial
-        |       free_trail_Screen.dart
-        |       
-        +---login_or_signup
-        |       login_or_signup_body.dart
-        |       login_or_signup_screen.dart
-        |       
-        +---log_in
-        |       log_in_body.dart
-        |       log_in_screen.dart
-        |       
-        +---otp
-        |       otp_body.dart
-        |       otp_screen.dart
-        |       
-        \---sign_up
-            |   sign_up_body.dart
-            |   sign_up_screen.dart
-            |   
-            \---sub_screens
-                    privacy_policy_screen.dart
-                    select_location_on_map_screen.dart
-                    terms_and_conditions_screen.dart
-                    
+	lib:.
+	|   constants.dart
+	|   README.md
+	|   routes.dart
+	|   tree.txt
+	|   
+	+---BusinessLogic
+	|   +---data
+	|   |   \---auth_repo
+	|   |           auth_repo.dart
+	|   |           auth_repo_implementation.dart
+	|   |           
+	|   +---Models
+	|   |       auth_owner_model.dart
+	|   |       
+	|   +---Services
+	|   |   |   location_services.dart
+	|   |   |   
+	|   |   \---FireBaseServices
+	|   |           create_and_delete_db_services.dart
+	|   |           firebase_phone_auth_helper.dart
+	|   |           firebase_validation_services.dart
+	|   |           
+	|   +---utils
+	|   |   |   globalSnackBar.dart
+	|   |   |   shareable _data.dart
+	|   |   |   
+	|   |   +---dropdownLists
+	|   |   |       registerDropDownItems.dart
+	|   |   |       
+	|   |   +---error
+	|   |   |       failure.dart
+	|   |   |       validation_exception.dart
+	|   |   |       
+	|   |   \---function
+	|   |           helper_function.dart
+	|   |           
+	|   \---view_models
+	|       \---authentication_view_models
+	|               authentication_view_model.dart
+	|               
+	+---components
+	|       buttons.dart
+	|       customTextField.dart
+	|       dropDownBox.dart
+	|       orDivider.dart
+	|       returnAppBar.dart
+	|       
+	+---scaffoldComponents
+	|       GeneralScaffold.dart
+	|       ScaffoldDrawer.dart
+	|       userIconButton.dart
+	|       
+	\---screens
+    	\---authentication
+        	+---free_trial
+        	|       free_trail_Screen.dart
+        	|       
+        	+---login_or_signup
+        	|       login_or_signup_body.dart
+        	|       login_or_signup_screen.dart
+        	|       
+        	+---log_in
+        	|       log_in_body.dart
+        	|       log_in_screen.dart
+        	|       
+        	+---otp
+        	|       otp_body.dart
+        	|       otp_screen.dart
+        	|       
+        	\---sign_up
+            	|   sign_up_body.dart
+            	|   sign_up_screen.dart
+            	|   
+            	\---sub_screens
+                    	privacy_policy_screen.dart
+                    	select_location_on_map_screen.dart
+                    	terms_and_conditions_screen.dart
+
+### UI Design:
+![Welcome Screen](https://github.com/NadaAbbas/authentication_module_display_project/assets/123370196/a76c03e9-300c-4547-a515-dee51b20d247)
+## Welcome Screen
+![LoginOrSignUp Screen](https://github.com/NadaAbbas/authentication_module_display_project/assets/123370196/a12d14b9-d7db-4aae-ba9d-a25b6c1c0d1d)
+## Login Or Signup Screen
+![Sign up Screen](https://github.com/NadaAbbas/authentication_module_display_project/assets/123370196/836b557a-392d-4f5b-a5d8-6a01f6d37fd5)
+## Register Data Screen
+![Sign up Screen-1](https://github.com/NadaAbbas/authentication_module_display_project/assets/123370196/d05c16dd-36bb-4e18-8e59-c10a88be1e4f)
+## GPS Location Set Screen
+![Login Screen](https://github.com/NadaAbbas/authentication_module_display_project/assets/123370196/5dedea8a-dc2d-48de-a527-7f431d1d2d16)
+## Login Screen
+![OTP Screen](https://github.com/NadaAbbas/authentication_module_display_project/assets/123370196/2243964c-5448-4893-a468-7d82284d6c65)
+## OTP Screen
+
+
+
+
+
+
+
